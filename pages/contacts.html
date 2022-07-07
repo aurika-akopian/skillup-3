@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Контакты</title>
+  </head>
+  <body>
+    <h1>Контакты</h1>
+    <ul>
+      <li><a href="../index.html">Главная</a></li>
+      <li><a href="./articles.html">Статьи</a></li>
+      <li><a href="./catalog.html">Каталог</a></li>
+      <li><a href="./contacts.html">Контакты</a></li>
+      <li><a href="./gallery.html">Галерея</a></li>
+      <li><a href="./page-nav.html">Навигация</a></li>
+      <li><a href="./registration.html">Регистрация</a></li>
+    </ul>
+    <p>Адрес: вулиця Михайла Грушевського, 5, Київ, Украина, 01008</p>
+    <img src="./contacts/location.png" alt="Address" width="500" />
+    <form
+      action="https://tests.fomenko.top/echo/index.php"
+      method="GET"
+      target="_blank"
+    >
+      <fieldset>
+        <legend>Форма Контакты</legend>
+        <div>
+          <label for="name_cont">Имя</label>
+          <input
+            id="name_cont"
+            name="name_cont"
+            placeholder="Имя"
+            type="text"
+          />
+        </div>
+        <div>
+          <label for="tel">Телефон</label>
+          <input id="tel" name="tel" placeholder="Телефон" type="tel" />
+        </div>
+        <div>
+          <label for="email_cont">Email</label>
+          <input
+            id="email_cont"
+            name="email_cont"
+            placeholder="Email"
+            type="email"
+          />
+        </div>
+        <div>
+          <label for="txt_question">Задайте вопрос</label>
+          <textarea
+            cols="30"
+            id="txt_question"
+            name="txt_question"
+            rows="10"
+          ></textarea>
+        </div>
+        <div>
+          <button type="submit">Отправить форму</button>
+        </div>
+        <div>
+          <button type="reset">Очистить форму</button>
+        </div>
+      </fieldset>
+    </form>
+    <footer>© Aurika Akopian</footer>
+  </body>
+</html>
