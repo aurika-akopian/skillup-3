@@ -1,0 +1,127 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: rgb(119, 143, 250);
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 100vw;
+  max-width: 1280px;
+}
+
+.menu a {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  background-color: white;
+  text-transform: uppercase;
+}
+
+.menu a:active {
+  color: white;
+  background-color: black;
+}
+
+.article h2 > a {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: large;
+  color: brown;
+  text-decoration: none;
+}
+
+.article .next:active {
+  color: darkgreen;
+  text-decoration: none;
+}
+
+.article .comments a {
+  color: grey;
+}
+
+.catalog-list {
+  width: 60%;
+  list-style: outside
+    url(https://findicons.com/files/icons/731/green_and_blue/32/emoticons.png);
+  font-size: 28px;
+  color: darkolivegreen;
+}
+
+.catalog-list .catalog-sublist {
+  list-style: outside
+    url(https://findicons.com/files/icons/494/pioneer_camp/32/fire.png);
+  font-size: 14px;
+  color: darkslategray;
+}
+
+.catalog-list .new::after {
+  margin-left: 3px;
+  padding: 2px;
+  content: "new";
+  background: orange;
+  color: aliceblue;
+  font-size: 75%;
+}
+
+.gallery {
+  background-image: url(https://findicons.com/files/icons/2787/beautiful_flat_icons/128/money.png);
+}
+
+.gallery img {
+  border: 20px solid royalblue;
+}
+
+.gallery img:hover {
+  border-color: transparent;
+}
+
+/* forms */
+* {
+  box-sizing: border-box;
+}
+fieldset {
+  max-width: 500px;
+  margin: 25px auto;
+  background-color: lightsteelblue;
+}
+select,
+input {
+  width: 100%;
+  padding: 10px 20px;
+}
+input[type="file"] {
+  padding: 0;
+}
+input[type="radio"],
+input[type="checkbox"] {
+  width: auto;
+}
+textarea {
+  width: 100%;
+  padding: 10px 20px;
+  resize: vertical;
+  min-height: 75px;
+  max-height: 33vh;
+}
+legend {
+  transform: translateY(-10px);
+}
+.form-group:not(:first-of-type) {
+  margin: 15px 0 5px;
+}
+.form-group-sm {
+  margin: 10px 0 5px;
+}
+.hidden {
+  display: none;
+}
+.btn {
+  width: 100%;
+  padding: 10px 20px;
+}
